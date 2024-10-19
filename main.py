@@ -19,7 +19,7 @@ if __name__ == '__main__':
 
     P = Play(team1, team2)
 
-    while P[2] < 51 :
-        P = Play(team1, team2)
+    # while P[2] < 51 :
+    #     P = Play(team1, team2)
 
     print(P[3], P[4], P[5], sep="\n")
